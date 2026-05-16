@@ -7,11 +7,126 @@ tags:
   - Fast Food
   - Restaurants
   - Food & Beverage
-description: 'One of the world''s largest fast-food hamburger chains operating over 18,000 locations in more than 100 countries. Known for its flame-grilled Whopper and a subsidiary of Restaurant Brands International.'
+  - Loyalty
+  - Mobile Ordering
+description: >-
+  Burger King is one of the world's largest fast-food hamburger chains
+  operating over 18,000 locations in more than 100 countries. Known for the
+  flame-grilled Whopper, Burger King is a subsidiary of Restaurant Brands
+  International (RBI) and operates the BK mobile app, Royal Perks loyalty
+  program, and delivery partnerships with DoorDash, Uber Eats, and Grubhub.
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
-apis: []
+apis:
+  - aid: burger-king:bk-mobile-app
+    name: Burger King Mobile App
+    tags:
+      - Mobile Ordering
+      - Loyalty
+      - Pickup
+      - Delivery
+    humanURL: https://www.bk.com/mobile-app
+    properties:
+      - url: https://www.bk.com/mobile-app
+        type: Documentation
+    description: >-
+      The Burger King mobile app provides mobile ordering, in-store pickup,
+      curbside pickup, and delivery via integration with DoorDash and other
+      partners. Includes Royal Perks loyalty program access, digital coupons,
+      and restaurant locator.
+
+  - aid: burger-king:royal-perks
+    name: Burger King Royal Perks
+    tags:
+      - Loyalty
+      - Rewards
+      - Mobile App
+    humanURL: https://www.bk.com/rewards
+    properties:
+      - url: https://www.bk.com/rewards
+        type: Documentation
+    description: >-
+      Royal Perks is Burger King's loyalty rewards program that earns members
+      crowns for purchases that can be redeemed for menu items and exclusive
+      offers. The program launched in 2021 and is accessed through the BK
+      mobile app and website.
+
+  - aid: burger-king:bk-online-ordering
+    name: Burger King Online Ordering
+    tags:
+      - Online Ordering
+      - Pickup
+      - Delivery
+    humanURL: https://www.bk.com/menu
+    properties:
+      - url: https://www.bk.com/menu
+        type: Documentation
+    description: >-
+      Burger King's online ordering platform on bk.com lets customers place
+      pickup, curbside, dine-in, and delivery orders directly through the
+      web. Integrates with the same Royal Perks loyalty and payment surfaces
+      as the mobile app.
+
+  - aid: burger-king:bk-store-locator
+    name: Burger King Store Locator
+    tags:
+      - Locations
+      - Store Locator
+      - Restaurants
+    humanURL: https://www.bk.com/store-locator
+    properties:
+      - url: https://www.bk.com/store-locator
+        type: Documentation
+    description: >-
+      Burger King's restaurant locator providing search by city, state,
+      ZIP code, or geolocation to find the nearest restaurant locations,
+      hours, services (drive-thru, delivery, dine-in), and contact details.
 common:
   - type: Website
     url: https://www.bk.com/
+  - type: ParentCompany
+    url: https://rbi.com/
+  - type: Login
+    url: https://www.bk.com/account
+  - type: SignUp
+    url: https://www.bk.com/account/sign-up
+  - type: Features
+    data:
+      - name: Mobile Ordering
+        description: Order ahead through the BK mobile app for pickup, curbside, or delivery.
+      - name: Royal Perks Loyalty
+        description: Earn crowns on every purchase and redeem for menu items and offers.
+      - name: Delivery Integration
+        description: Delivery via DoorDash, Uber Eats, and Grubhub partnerships.
+      - name: Restaurant Locator
+        description: Find nearby Burger King locations, hours, and services.
+      - name: Digital Coupons
+        description: Mobile-app-exclusive offers and promotional discounts.
+      - name: Order Tracking
+        description: Real-time order status and pickup notifications.
+  - type: UseCases
+    data:
+      - name: Mobile Pickup Orders
+        description: Customers ordering ahead for in-store or curbside pickup.
+      - name: Loyalty Engagement
+        description: Repeat customers earning and redeeming crowns through Royal Perks.
+      - name: Delivery Orders
+        description: Customers ordering Burger King through third-party delivery platforms.
+      - name: Family Meal Ordering
+        description: Larger group orders for family meals and combos.
+      - name: Drive-Thru Ordering
+        description: Drive-thru and curbside ordering integration with mobile app.
+  - type: Integrations
+    data:
+      - name: DoorDash
+        description: Third-party delivery partnership for home delivery orders.
+      - name: Uber Eats
+        description: Delivery integration through Uber Eats marketplace.
+      - name: Grubhub
+        description: Delivery integration through Grubhub marketplace.
+      - name: Restaurant Brands International
+        description: Parent company operating Tim Hortons, Popeyes, and Firehouse Subs alongside Burger King.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
