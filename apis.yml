@@ -16,7 +16,7 @@ description: >-
   International (RBI) and operates the BK mobile app, Royal Perks loyalty
   program, and delivery partnerships with DoorDash, Uber Eats, and Grubhub.
 created: '2026-05-05'
-modified: '2026-05-16'
+modified: '2026-06-02'
 specificationVersion: '0.19'
 apis:
   - aid: burger-king:bk-mobile-app
