@@ -91,7 +91,7 @@ common:
     url: https://rbi.com/
   - type: Login
     url: https://www.bk.com/account
-  - type: SignUp
+  - type: Signup
     url: https://www.bk.com/account/sign-up
   - type: Features
     data:
