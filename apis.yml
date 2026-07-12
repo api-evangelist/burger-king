@@ -83,6 +83,8 @@ apis:
       ZIP code, or geolocation to find the nearest restaurant locations,
       hours, services (drive-thru, delivery, dine-in), and contact details.
 common:
+  - type: DomainSecurity
+    url: security/burger-king-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/burger-king
   - type: Website
