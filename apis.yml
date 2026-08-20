@@ -16,6 +16,12 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/burger-king.png
 tags:
   - Fast Food
+  - Restaurant
+  - Food and Beverage
+  - Loyalty
+  - Mobile Ordering
+tags_raw:
+  - Fast Food
   - Restaurants
   - Food & Beverage
   - Loyalty
@@ -82,6 +88,10 @@ apis:
   - aid: burger-king:bk-store-locator
     name: Burger King Store Locator
     tags:
+      - Locations
+      - Store Locator
+      - Restaurant
+    tags_raw:
       - Locations
       - Store Locator
       - Restaurants
