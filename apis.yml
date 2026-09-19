@@ -99,7 +99,7 @@ apis:
   - aid: burger-king:bk-store-locator
     name: Burger King Store Locator
     tags:
-      - Locations
+      - Location
       - Store Locator
       - Restaurant
     tags_raw:
