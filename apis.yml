@@ -47,38 +47,7 @@ created: '2026-05-05'
 modified: '2026-06-02'
 specificationVersion: '0.23'
 apis:
-  - aid: burger-king:bk-mobile-app
-    name: Burger King Mobile App
-    tags:
-      - Mobile Ordering
-      - Loyalty
-      - Pickup
-      - Delivery
-    humanURL: https://www.bk.com/mobile-app
-    properties:
-      - url: https://www.bk.com/mobile-app
-        type: Documentation
-    description: >-
-      The Burger King mobile app provides mobile ordering, in-store pickup,
-      curbside pickup, and delivery via integration with DoorDash and other
-      partners. Includes Royal Perks loyalty program access, digital coupons,
-      and restaurant locator.
 
-  - aid: burger-king:royal-perks
-    name: Burger King Royal Perks
-    tags:
-      - Loyalty
-      - Rewards
-      - Mobile App
-    humanURL: https://www.bk.com/rewards
-    properties:
-      - url: https://www.bk.com/rewards
-        type: Documentation
-    description: >-
-      Royal Perks is Burger King's loyalty rewards program that earns members
-      crowns for purchases that can be redeemed for menu items and exclusive
-      offers. The program launched in 2021 and is accessed through the BK
-      mobile app and website.
 
   - aid: burger-king:bk-online-ordering
     name: Burger King Online Ordering
