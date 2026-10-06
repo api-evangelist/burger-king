@@ -44,7 +44,7 @@ description: >-
   International (RBI) and operates the BK mobile app, Royal Perks loyalty
   program, and delivery partnerships with DoorDash, Uber Eats, and Grubhub.
 created: '2026-05-05'
-modified: '2026-06-02'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
 
@@ -84,6 +84,8 @@ apis:
       ZIP code, or geolocation to find the nearest restaurant locations,
       hours, services (drive-thru, delivery, dine-in), and contact details.
 common:
+  - url: https://www.bk.com/blog/
+    type: Blog
   - type: DomainSecurity
     url: security/burger-king-domain-security.yml
   - type: LinkedIn
