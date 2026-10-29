@@ -1,4 +1,4 @@
-# Burger King (burger-king)
+# Burger King
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,113 +66,83 @@
 
 Burger King is one of the world's largest fast-food hamburger chains operating over 18,000 locations in more than 100 countries. Known for the flame-grilled Whopper, Burger King is a subsidiary of Restaurant Brands International (RBI) and operates the BK mobile app, Royal Perks loyalty program, and delivery partnerships with DoorDash, Uber Eats, and Grubhub.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/burger-king/refs/heads/main/apis.yml)
+**Areas:** Fast Food · Restaurant · Food and Beverage · Loyalty · Mobile Ordering
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Burger King on APIs.io
 
-## Tags:
+Everything profiled for Burger King is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/burger-king/](https://apis.io/providers/burger-king/)** — or go straight to one of the APIs or properties below.
 
- - Fast Food, Restaurants, Food & Beverage, Loyalty, Mobile Ordering
+### APIs (2)
 
-## Timestamps
+- [Burger King Online Ordering](https://apis.io/apis/burger-king/bk-online-ordering/) — Burger King's online ordering platform on bk.com lets customers place pickup, curbside, dine-in, and delivery orders directly through the web. Integrates…
+- [Burger King Store Locator](https://apis.io/apis/burger-king/bk-store-locator/) — Burger King's restaurant locator providing search by city, state, ZIP code, or geolocation to find the nearest restaurant locations, hours, services…
 
-- **Created:** 2026-05-05
-- **Modified:** 2026-06-02
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Burger King Mobile App
-The Burger King mobile app provides mobile ordering, in-store pickup, curbside pickup, and delivery via integration with DoorDash and other partners. Includes Royal Perks loyalty program access, digital coupons, and restaurant locator.
+#### Security (1)
 
-**Human URL:** [https://www.bk.com/mobile-app](https://www.bk.com/mobile-app)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags:
+- [Burger King Domain Security](https://apis.io/security/burger-king/burger-king-domain-security/)
 
- - Mobile Ordering, Loyalty, Pickup, Delivery
+## Where to find this API
 
-#### Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- [Documentation](https://www.bk.com/mobile-app)
-
-### Burger King Royal Perks
-Royal Perks is Burger King's loyalty rewards program that earns members crowns for purchases that can be redeemed for menu items and exclusive offers. The program launched in 2021 and is accessed through the BK mobile app and website.
-
-**Human URL:** [https://www.bk.com/rewards](https://www.bk.com/rewards)
-
-#### Tags:
-
- - Loyalty, Rewards, Mobile App
-
-#### Properties
-
-- [Documentation](https://www.bk.com/rewards)
-
-### Burger King Online Ordering
-Burger King's online ordering platform on bk.com lets customers place pickup, curbside, dine-in, and delivery orders directly through the web. Integrates with the same Royal Perks loyalty and payment surfaces as the mobile app.
-
-**Human URL:** [https://www.bk.com/menu](https://www.bk.com/menu)
-
-#### Tags:
-
- - Online Ordering, Pickup, Delivery
-
-#### Properties
-
-- [Documentation](https://www.bk.com/menu)
-
-### Burger King Store Locator
-Burger King's restaurant locator providing search by city, state, ZIP code, or geolocation to find the nearest restaurant locations, hours, services (drive-thru, delivery, dine-in), and contact details.
-
-**Human URL:** [https://www.bk.com/store-locator](https://www.bk.com/store-locator)
-
-#### Tags:
-
- - Locations, Store Locator, Restaurants
-
-#### Properties
-
-- [Documentation](https://www.bk.com/store-locator)
-
-## Common Properties
-
-- [LinkedIn](https://www.linkedin.com/company/burger-king)
 - [Website](https://www.bk.com/)
-- [ParentCompany](https://rbi.com/)
-- [Login](https://www.bk.com/account)
-- [SignUp](https://www.bk.com/account/sign-up)
+- [Blog](https://www.bk.com/blog/)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Mobile Ordering | Order ahead through the BK mobile app for pickup, curbside, or delivery. |
-| Royal Perks Loyalty | Earn crowns on every purchase and redeem for menu items and offers. |
-| Delivery Integration | Delivery via DoorDash, Uber Eats, and Grubhub partnerships. |
-| Restaurant Locator | Find nearby Burger King locations, hours, and services. |
-| Digital Coupons | Mobile-app-exclusive offers and promotional discounts. |
-| Order Tracking | Real-time order status and pickup notifications. |
+**Kin Score 8.0** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 6.6 |
 
-| Name | Description |
-|------|-------------|
-| Mobile Pickup Orders | Customers ordering ahead for in-store or curbside pickup. |
-| Loyalty Engagement | Repeat customers earning and redeeming crowns through Royal Perks. |
-| Delivery Orders | Customers ordering Burger King through third-party delivery platforms. |
-| Family Meal Ordering | Larger group orders for family meals and combos. |
-| Drive-Thru Ordering | Drive-thru and curbside ordering integration with mobile app. |
+**Agent readiness 0.0** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| DoorDash | Third-party delivery partnership for home delivery orders. |
-| Uber Eats | Delivery integration through Uber Eats marketplace. |
-| Grubhub | Delivery integration through Grubhub marketplace. |
-| Restaurant Brands International | Parent company operating Tim Hortons, Popeyes, and Firehouse Subs alongside Burger King. |
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
 
-## Maintainers
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/burger-king/](https://apis.io/providers/burger-king/).
 
-**FN:** Kin Lane
+## How this profile is made
 
-**Email:** kin@apievangelist.com
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Burger King: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/burger-king/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
